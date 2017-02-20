@@ -168,5 +168,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
 
     }
+    public void dinamic(View v){
+        Intent i = new Intent(this, DinamicTable.class);
+        startActivity(i);
+
+    }
 
 }
