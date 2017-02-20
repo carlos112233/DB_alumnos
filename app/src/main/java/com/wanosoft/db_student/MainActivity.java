@@ -1,6 +1,7 @@
 package com.wanosoft.db_student;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Region;
@@ -161,4 +162,11 @@ public class MainActivity extends AppCompatActivity {
         AppIndex.AppIndexApi.end(client, getIndexApiAction());
         client.disconnect();
     }
+
+    public void next(View v){
+        Intent i = new Intent(this, Relave.class);
+        startActivity(i);
+
+    }
+
 }

@@ -92,4 +92,14 @@
         android:onClick="query"
         android:layout_below="@+id/Baja"
         android:layout_alignStart="@+id/Baja" />
+
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Consulta"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:id="@+id/next"
+        android:onClick="next"/>
 </RelativeLayout>
